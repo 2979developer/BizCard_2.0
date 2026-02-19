@@ -17,7 +17,8 @@ public class DBConnection {
 	public static Connection getConnection() throws Exception {
 		String url = "jdbc:mysql://bizcard-db-bizcard-project.f.aivencloud.com:14273/defaultdb?sslmode=REQUIRED";
 		String user = "avnadmin";
-		String password = "AVNS_YUkC8oAfQsPM2aJ_kKg";
+//		String password = "AVNS_YUkC8oAfQsPM2aJ_kKg";
+		String password = System.getenv("DB_PASSWORD");
 
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		return DriverManager.getConnection(url, user, password);
