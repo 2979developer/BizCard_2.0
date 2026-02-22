@@ -6,7 +6,6 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy your WAR file from the build folder to Tomcat's webapps
 # Ensure your build folder contains the .war file
-COPY build/*.war /usr/local/tomcat/webapps/ROOT.war
-
+COPY *.war /usr/local/tomcat/webapps/ROOT.war
 # Start Tomcat
 CMD ["catalina.sh", "run"]
