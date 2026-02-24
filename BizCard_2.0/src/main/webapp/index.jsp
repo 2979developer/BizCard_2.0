@@ -6,6 +6,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BizCard AI - The Future of Networking</title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BizCard AI | The Future of Networking</title>
+    <meta name="description" content="Create and manage your professional digital business cards with BizCard AI. AI-powered suggestions, 3D designs, and instant sharing.">
+    <meta name="keywords" content="digital business card, AI business card, networking, Java project, Render deployment">
+    
+    <meta property="og:title" content="BizCard AI - Your Digital Identity, Reimagined">
+    <meta property="og:description" content="Check out my full-stack Java project live on Render!">
+    <meta property="og:url" content="https://bizcard-2-0.onrender.com">
+    <meta property="og:type" content="website">
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 	rel="stylesheet">
